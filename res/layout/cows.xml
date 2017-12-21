@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/L1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="School Information:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="359dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:text="   Passaic County Technical Institute is a 25-time national award winning comprehensive high school. Serving 3,200 students PCTI has one of the most advanced curriculum in the country. With more than 200 students of the graduating class of 2013 received local, state, and national honors for superior academic career and athletic acheivements, PCTI  is the #1 vocational school in NJ."
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>

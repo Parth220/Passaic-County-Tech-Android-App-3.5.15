@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/t1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ts.tech.BellPage"
+    >
+
+    <Button
+        android:id="@+id/f1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="60dp"
+        android:text="Full Day Schedule" />
+
+    <Button
+        android:id="@+id/lf"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="35dp"
+        android:text="Full Day Lunches" />
+
+    <Button
+        android:id="@+id/h1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="35dp"
+        android:text="Half Day Schedule" />
+
+    <Button
+        android:id="@+id/hl"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="35dp"
+        android:text="Half Day Lunches" />
+    
+</LinearLayout>

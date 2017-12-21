@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Lines 35, 57, 98 need to be changed. Everything else can stay the same -->
+
+<resources>
+    
+	<string name="package_name">com.ts.tech</string>
+	<string name="back_exit">Please click BACK again to exit</string>
+	<string name="title_info">Theme Info</string>
+	<string name="title_about">About Developer</string>
+	<string name="title_donate">Donate</string>
+	<string name="more_overflow">More</string>
+	<string name="submit">Submit</string>
+	<string name="about_theme">About Theme</string>
+	<string name="googleme">Circle On Google+</string>
+	<string name="icon_share">Share</string>
+	<string name="about_dev">About Developer</string>
+	<string name="email_dev">Contact</string>
+	<string name="content_description">Fish</string>
+	<string name="back_button">Back</string>
+	<string name="about_image_main">Main About Image</string>
+	<string name="divider">Text Divider</string>
+	<string name="share">Share</string>
+	<string name="close">Close</string>
+	<string name="new_icons_title">Newly Added Icons</string>
+  	<string name="cancel">Cancel</string>
+	<string name="desc_info">Check the daily announcements</string>
+	<string name="desc_bell">Daily Bell Schedule</string><string name="desc_ps">Go to Powerschool</string>
+	<string name="desc_directions">Directions to PCTI</string>
+	<string name="desc_web">Go to the PCTI Website</string><string name="desc_contact">Contact PCTI</string>
+	
+	<string name="desc_gplus">Circle me on Google+</string>
+  	<string name="desc_request">Missing icons? Send your request to the developer.</string>
+    <string name="building_request">Building Request&#8230;</string>
+    <string name="icons_latest">Latest</string>
+    <string name="icons_all">All</string> 
+    <string name="icons_system">System</string>
+    <string name="icons_play">Google Play</string>
+    <string name="icons_games">Games</string>
+    <string name="icons_misc">Misc</string>
+	<string name="title_all_icons">Themed Icons</string>
+	<string name="desc_all_icons">All of the included icons at a glance.</string>
+	<string name="desc_share">Share this theme with others</string>
+	<string name="desc_rate">Rate this theme on the Play Store</string>
+	<string name="desc_email">Send your requests or just give feedback</string>
+	<string name="desc_about">Learn more about the developer</string>
+	
+	
+</resources>

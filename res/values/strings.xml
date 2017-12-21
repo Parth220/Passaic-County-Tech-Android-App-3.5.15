@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+		<!-- Label for app name in launcher -->
+		<!-- Edit these two strings to match your theme name -->
+	<string name="app_name">PCTI</string>
+	<string name="title_pctiweb">PCTI WEBSITE</string>
+	<string name="title_app">Tech</string>
+	<string name="bell">Bell Schedule</string>
+	<string name="pctiweb">PCTI Website</string>
+	<string name="ps">Powerschool</string>
+	<string name="directions">Directions</string>
+	<string name="fullday">Full Day Bell Schedule</string>
+	<string name="contact">Contacts</string>
+	<string name="announce">Daily announcements</string>
+	
+</resources>

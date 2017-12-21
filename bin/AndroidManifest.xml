@@ -1,0 +1,100 @@
+
+<manifest 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+      	package="com.ts.tech"
+      	android:versionCode="301"
+      	android:versionName="3.0.1"
+      	android:installLocation="auto">
+    
+    <supports-screens 
+        android:anyDensity="true" 
+        android:smallScreens="true" 
+        android:normalScreens="true" 
+        android:largeScreens="true"
+        android:xlargeScreens="true"  
+        android:resizeable="true" />
+    
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="19"/>
+    
+
+    <application 
+        android:allowBackup="true"
+        android:label="@string/app_name" 
+        android:icon="@drawable/ic_launcher"
+        android:theme="@style/AppTheme" 
+        android:largeHeap="true" >
+        
+        <activity
+            android:name="com.ts.tech.activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+		<activity 
+            android:name="com.ts.tech.activity.AboutThemeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity 
+            android:name="com.ts.tech.activity.AboutDev"
+            android:theme="@style/Theme.Sherlock.Light.Dialog" >
+        </activity>  
+        <activity
+            android:name="com.ts.tech.activity.RequestActivity"
+            android:icon="@drawable/icon_request"
+            android:label="@string/app_name" >
+        </activity> 
+        <activity
+            android:name="com.ts.tech.activity.AllIcons"
+            android:label="@string/title_all_icons" >
+        </activity>
+        <activity
+            android:name="com.ts.tech.activity.BellPage">
+        </activity>
+        
+         
+        <activity
+            android:name="com.ts.tech.activity.Docks"
+            android:label="@string/app_name"
+            android:icon="@drawable/icon">
+            <intent-filter>
+                <action android:name="android.intent.action.PICK" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ts.tech.activity.Contacts"
+            android:label="Contacts" >
+        </activity>        
+        <activity android:name="com.ts.tech.activity.bellPage"
+                  android:label="Bell Schedule">
+        </activity>
+
+        
+        <activity
+                  android:name="com.ts.tech.activity.full"
+                  android:label="Full Day" >   
+        </activity>
+        
+        <activity
+                 android:name="com.ts.tech.activity.halfl"
+                 android:label="Half Day" >   
+        </activity>
+
+        <activity
+                 android:name="com.ts.tech.activity.lunchf"
+                 android:label="Full Day Lunches" >
+        </activity>
+        
+        <activity
+                 android:name="com.ts.tech.activity.lunchh"
+                 android:label="Half Day Lunches" >
+        </activity>
+
+        <provider 
+            android:name="com.ts.tech.activity.DocksProvider"
+            android:authorities="com.ts.tech.DocksProvider" />
+    </application>
+</manifest>
